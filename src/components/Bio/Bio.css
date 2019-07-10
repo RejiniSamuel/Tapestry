@@ -1,0 +1,32 @@
+img {
+	width: 30%;
+	float: center;
+	margin: 1.66%;
+}
+
+
+.h1-center {
+	text-align: center;
+}
+
+.textShadow {
+	text-shadow: 5px 5px 15px black;
+}
+
+
+/*.HoverText--custom {
+  --shadow-text-color: White;
+  --shadow-text-shadow-color: Black;
+  --shadow-text-shadow-blur: 5px;
+  --shadow-text-x-translate: 5px;
+  --shadow-text-y-translate: 5px;
+  --shadow-text-z-index: 0;
+  --shadow-text-transition-duration: 0.2s;
+  --shadow-text-transition-timing: ease-out;
+}
+ 
+.HoverText--custom:hover {
+  --shadow-text-shadow-blur: 10px;
+  --shadow-text-x-translate: 5px;
+  --shadow-text-y-translate: 5px;
+} */
