@@ -1,0 +1,30 @@
+.Fade-text {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  height: 100px;
+  overflow:hidden;
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  line-height: 20px;
+  color: #000000;
+      -webkit-animation-name: opacity;
+      -webkit-animation-duration: 8s;
+      -webkit-animation-delay: -1s;
+      -webkit-animation-direction: alternate;
+      -webkit-animation-iteration-count: infinite;
+      animation-name: opacity;
+      animation-duration: 8s;
+      animation-delay: -1s;
+      animation-direction: alternate;
+      animation-timing-function: ease-in-out;
+      animation-iteration-count: infinite;
+}
+
+@keyframes opacity {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 0.8;
+  }
+}

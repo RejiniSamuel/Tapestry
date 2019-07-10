@@ -1,0 +1,30 @@
+.animated_div {
+  width: 60px;
+  height: 40px;
+  background: #92b901;
+  text-decoration-color: #92b901;
+  color: #ffffff;
+  position: absolute;
+  font-weight: bold;
+  font-size: 15px;
+  padding: 10px;
+  float: left;
+  margin: 5px;
+  transition: opacity, 300ms, ease-in-out, 1s;
+  border-radius: 5px;
+  opacity: 0.3;
+}
+.animated_div:hover {
+  opacity: 1;
+  background: #1ec7e6;
+  width: 130px;
+  height: 130px;
+  font-size: 25px;
+}
+
+.container {
+  left: 0%;
+  top: 50%;
+  max-width: 80%;
+  border: 1px solid green;
+}
