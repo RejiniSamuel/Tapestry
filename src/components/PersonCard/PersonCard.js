@@ -41,35 +41,35 @@ class PersonCard extends Component {
     //const { isOpen } = this.state;
 
     return ( <
-      Fragment >
-      <
-      div / >
+        Fragment >
+        <
+        div / >
 
-      <
-      div > {
-        " "
-      } <
-      img alt = " "
-      onMouseEnter = {
-        this.toggleCoolness
-      }
-      onMouseLeave = {
-        this.toggleCoolness
-      }
-      className = " br-100 pa1 ba b--black-10 h4 w4"
-      style = {
-        {
-          zIndex: "200"
-          //position: "absolute",
-
-          //  left: `${this.props.picposx}`,
-          //  top: `${this.props.styleposy}`
+        <
+        div > {
+          " "
+        } <
+        img alt = " "
+        onMouseEnter = {
+          this.toggleCoolness
         }
-      }
-      src = {
-        this.props.pPhotoLink
-      }
-      /> {
+        onMouseLeave = {
+          this.toggleCoolness
+        }
+        className = " br-100 pa1 ba b--black-10 h4 w4"
+        style = {
+          {
+            zIndex: "200"
+            //position: "absolute",
+
+            //  left: `${this.props.picposx}`,
+            //  top: `${this.props.styleposy}`
+          }
+        }
+        src = {
+          this.props.pPhotoLink
+        }
+        /> {
         this.state.isCool ? ( <
           div className = "biodesc"
           style = {
@@ -80,8 +80,7 @@ class PersonCard extends Component {
               //  left: `${this.props.styleposx}`,
               // top: `${this.props.styleposy}`
             }
-          } >
-          {
+          } > {
             this.props.biodesc
           } <
           /div>
@@ -89,9 +88,9 @@ class PersonCard extends Component {
           div > < /div>
         )
       } <
-      /div> <
-      /Fragment>
-    );
-  }
+      /div> < /
+      Fragment >
+  );
+}
 }
 export default PersonCard;
