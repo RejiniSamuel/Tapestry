@@ -1,4 +1,6 @@
-import React, { Component } from "react";
+import React, {
+  Component
+} from "react";
 import PersonList from "./components/PersonList/PersonList";
 import ParticlesBit from "./components/ParticlesBit/ParticlesBit";
 
@@ -15,6 +17,8 @@ import ParticlesBit from "./components/ParticlesBit/ParticlesBit";
 import Bio from "./components/Bio/Bio";
 import logo from "./logo.png";
 import "./App.css";
+//import P5Wrapper from 'react-p5-wrapper';
+//import circles from "./components/PersonList/circles";
 //import Final from './components/Final/Final';
 
 class App extends Component {
@@ -33,23 +37,39 @@ class App extends Component {
     //  const circleTransform = progress => `translate3d(-50%, -50%, 0) scale3d(${progress}, ${progress}, 1)`
     //const label = progress => `${Math.round(progress * 100)}%`
 
-    return (
-      <div>
-        <div className="tc">
-          <img src={logo} className="App-logo-nomove" alt="logo" />
-        </div>
-        <div>
-          <Bio />
-          <PersonList // persons={persons}
-          />
-        </div>
+    return ( <
+      div >
+      <
+      div className = "tc" >
+      <
+      img src = {
+        logo
+      }
+      className = "App-logo-nomove"
+      alt = "logo" / >
+      <
+      /div> <
+      div >
+      <
+      Bio / >
+      <
+      PersonList
+      // persons = {persons}
+      /
+      >
+      <
+      /div>
 
-        <div className="App">
-          <header className="App-header" />
+      <
+      div className = "App" >
+      <
+      header className = "App-header" / >
 
-          <ParticlesBit />
-        </div>
-      </div>
+      <
+      ParticlesBit / >
+      <
+      /div> < /
+      div >
     );
   }
 }

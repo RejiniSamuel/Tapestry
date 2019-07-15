@@ -10,19 +10,23 @@ import "./Bio.css";
 //import ControlledCarousel from '../ControlledCarousel/ControlledCarousel';
 
 const Bio = () => {
-  return (
-    <div>
-      <div className="row">
-        <div className="col-lg-12">
-          <div id="content" className="tc pv4 pv5-ns">
-            <h1 className="weavetext f1-ns fw10 white-100 tracked">
-              weaving our immigrant stories onto the stage
-            </h1>
-          </div>
-          <hr />
-        </div>
-      </div>
-    </div>
+  return ( <
+    div >
+    <
+    div className = "row" >
+    <
+    div className = "col-lg-12" >
+    <
+    div id = "content"
+    className = "tc pv4 pv5-ns" >
+    <
+    h1 className = "weavetext f1-ns fw10 white-100 tracked" >
+    weaving our immigrant stories onto the stage <
+    /h1> <
+    /div> <
+    /div> <
+    /div> <
+    /div>
   );
 };
 

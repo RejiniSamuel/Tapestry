@@ -3,8 +3,9 @@ export const persons = [{
     pFirstName: "Rejini",
     pLastName: "Samuel",
     pBioText: "Rejini is an Irish-Indian American. She was born in Nigeria to Indian parents and lived in Ireland for over 30 years. She moved to America in 2014 and to Atlanta in 2016. She has been studying improv at the Village Theater and Dad\u0027s Garage for a few years and hopes to continue learning improv for as long as possible. She has written 5 novels under the highly original pen name of R J Samuel.",
-    pPhotoLink: "rejini.png",
-    // pPhotoLink: "https://s3.us-east-2.amazonaws.com/picturesforanyone/images/rejiniPic.png",
+    //pPhotoLink: "rejini.png",
+    pPhotoLink: "https://s3.us-east-2.amazonaws.com/picturesforanyone/images/rejini.png",
+    X: 0,
     pGen: "Zero"
   },
   /*   {
@@ -23,8 +24,9 @@ export const persons = [{
     pFirstName: "Alex",
     pLastName: "Lee",
     pBioText: "Alex was born in the Portuguese/Chinese territory of Macao, which most people cannot find on a map and that’s okay. He immigrated to Los Angeles, CA when he was young and grew up around various immigrant communities. He started improv classes a few years ago to deal with his anxiety and learn communications skills, but discovered that he enjoyed performing, and fell in love with improv and its community. He is now living in Georgia as a grad student in ecology at UGA. His training includes Endgames Improv (San Francisco, CA), Highwire Comedy, Amanda Rountree, and Camp Improv Utopia.",
-    pPhotoLink: "alex.png",
-    // pPhotoLink: "https://s3.us-east-2.amazonaws.com/picturesforanyone/images/Alex.jpg",
+    //pPhotoLink: "alex.png",
+    pPhotoLink: "https://s3.us-east-2.amazonaws.com/picturesforanyone/images/alex.png",
+    X: 0,
     pGen: "Zero"
   },
   {
@@ -32,8 +34,9 @@ export const persons = [{
     pFirstName: "Bianca",
     pLastName: "Garcia",
     pBioText: "Bianca is an industrial engineer by day and a dancer and improviser by night.She was born and raised in Central Florida and is half Filipino and half Puerto Rican. Bianca spent 13+ years in performance arts including music and various forms of multicultural dances. She has been studying improv at Dad’s Garage since early 2018 and has found the art form to be one of the best human experiences imaginable.",
-    pPhotoLink: "bianca.png",
-    // pPhotoLink: "https://s3.us-east-2.amazonaws.com/picturesforanyone/images/Bianca.jpg",
+    //pPhotoLink: "../../Assets/bianca.png",
+    pPhotoLink: "https://s3.us-east-2.amazonaws.com/picturesforanyone/images/bianca.png",
+    X: 0,
     pGen: "First"
   },
   {
@@ -41,8 +44,9 @@ export const persons = [{
     pFirstName: "Maged",
     pLastName: "Roushdi",
     pBioText: "Maged is an improviser at Dad\u0027s Garage theatre and part of acclaimed Improv Duo Funny Bunny. His 7 year old daughter is the other part.",
-    pPhotoLink: "maged.png",
-    //pPhotoLink: "https://s3.us-east-2.amazonaws.com/picturesforanyone/images/Maged.jpg",
+    //pPhotoLink: "../../Assets/maged.png",
+    pPhotoLink: "https://s3.us-east-2.amazonaws.com/picturesforanyone/images/maged.png",
+    X: 0,
     pGen: "First"
   },
   /*   {
@@ -60,8 +64,9 @@ export const persons = [{
     pFirstName: "Johanna",
     pLastName: "Isler",
     pBioText: "Johanna is an Atlanta native born to immigrant parents from the Philippine Islands. Her mom is ½ Spanish, ½ Filipina, and her Dad is ¼ Swiss, ¾ Filipino. Johanna is bad at math so she’ll let you figure out what that makes her. She started studying improv a couple years ago at Village Theatre, where she is now on one of the POC house teams, and currently takes classes at Dad’s Garage. She also does digital marketing at a non-profit in Atlanta and just took up juggling for fun because she wasn’t quite busy enough.",
-    pPhotoLink: "johanna.png",
-    //pPhotoLink: "https://s3.us-east-2.amazonaws.com/picturesforanyone/images/Johanna.jpg",
+    //pPhotoLink: "../../Assets/johanna.png",
+    pPhotoLink: "https://s3.us-east-2.amazonaws.com/picturesforanyone/images/johanna.png",
+    X: 0,
     pGen: "First"
   },
   {
@@ -69,8 +74,9 @@ export const persons = [{
     pFirstName: "Joseph",
     pLastName: "Yang",
     pBioText: "Joseph is a 1st Generation Korean - American from Clarksville, Tennessee.He attended the University of Tennessee at Chattanooga with a degree in Communications. He then moved to Atlanta to pursue film. Joseph has been pursuing the artistry of improv with Highwire Comedy Company and at Dad\u0027s Garage Theatre Company. Tapestry has been the platform Joseph is very proud of because of the people he gets to perform with and the stories he gets to share from a diversity scope.",
-    pPhotoLink: "joseph.png",
-    //pPhotoLink: "https://s3.us-east-2.amazonaws.com/picturesforanyone/images/Joseph.jpg",
+    //pPhotoLink: "../../Assets/joseph.png",
+    pPhotoLink: "https://s3.us-east-2.amazonaws.com/picturesforanyone/images/joseph.png",
+    X: 0,
     pGen: "First"
   },
   {
@@ -78,8 +84,9 @@ export const persons = [{
     pFirstName: "Kavita",
     pLastName: "Pandit",
     pBioText: "Kavita is a zero- and first-gen immigrant depending on your definition. She is from Mumbai in India",
-    pPhotoLink: "kavita.png",
-    // pPhotoLink: "https://s3.us-east-2.amazonaws.com/picturesforanyone/images/Kavita.jpg",
+    //pPhotoLink: "../../Assets/kavita.png",
+    pPhotoLink: "https://s3.us-east-2.amazonaws.com/picturesforanyone/images/kavita.png",
+    X: 0,
     pGen: "First"
   },
   {
@@ -87,24 +94,27 @@ export const persons = [{
     pFirstName: "Catherine",
     pLastName: "Nyugen",
     pBioText: "Catherine Nguyen’s parents are from southern Vietnam, and they emigrated to northern Virginia following the end of the Vietnam War.Catherine is from Falls Church, VA, home of the largest Vietnamese American population on the east coast.Her high school class of 300 people had about 13 Vietnamese with the last name Nguyen, and none of them were related.Catherine’s first language was Vietnamese.She grew up active in the Vietnamese Catholic church, being part of a Vietnamese Girl Scout troop, and attending Vietnamese literacy classes.Catherine moved to Atlanta in August 2018 to attend grad school, and she has only recently discovered delicious Vietnamese food in Norcross while canvassing with Asian Americans Advancing Justice for the midterm election runoffs.Catherine began improv classes in April 2018, and she helped start two improv teams, East Side and Too Many Cooks.",
-    pPhotoLink: "catherine.png",
-    // pPhotoLink: "https://s3.us-east-2.amazonaws.com/picturesforanyone/images/Catherine.jpg",
+    //pPhotoLink: "../../Assets/catherine.png",
+    pPhotoLink: "https://s3.us-east-2.amazonaws.com/picturesforanyone/images/catherine.png",
+    X: 0,
     pGen: "First"
   }, {
     id: 9,
     pFirstName: "Martin",
     pLastName: "Aramayo",
     pBioText: "Martin Aramayo description.",
-    pPhotoLink: "martin.png",
-    // pPhotoLink: "https://s3.us-east-2.amazonaws.com/picturesforanyone/images/Catherine.jpg",
+    //pPhotoLink: "../../Assets/martin.png",
+    pPhotoLink: "https://s3.us-east-2.amazonaws.com/picturesforanyone/images/martin.png",
+    X: 0,
     pGen: "First"
   }, {
     id: 10,
     pFirstName: "Max",
     pLastName: "Makhinson",
     pBioText: "Max description.",
-    pPhotoLink: "max.png",
-    // pPhotoLink: "https://s3.us-east-2.amazonaws.com/picturesforanyone/images/Catherine.jpg",
+    //pPhotoLink: "../../Assets/max.png",
+    pPhotoLink: "https://s3.us-east-2.amazonaws.com/picturesforanyone/images/max.png",
+    X: 0,
     pGen: "First"
   }
 ];

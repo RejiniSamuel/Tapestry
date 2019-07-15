@@ -1,12 +1,7 @@
 import "p5/lib/addons/p5.dom";
-import personImg from "./rejini.png";
-export default function sketch(p) {
+//import personImg from "./rejini.png";
+export default function circles(p) {
   //let rotation = 0;
-  let img;
-  p.preload = function () {
-    img = p.loadImage(personImg);
-  };
-
   p.setup = function () {
     var circles = [],
       circle = {},
@@ -52,48 +47,7 @@ export default function sketch(p) {
       counter++;
     }
 
-    //let img = p.loadImage('apple-touch-icon.png');
-    /*     p.loadImage('apple-touch-icon.png', img => {
-          p.image(img, 0, 0);
-        }); */
-
-    // circles array is complete
-    // draw canvas once
-    p.background("#233");
-    p.fill("#2AC1A6");
-    //p.texture(img);
-    p.noStroke();
-    for (i = 0; i < circles.length; i++) {
-      p.image(
-        img,
-        circles[i].x,
-        circles[i].y,
-        circles[i].r * 2,
-        circles[i].r * 2
-      );
-      //p.ellipse(circles[i].x, circles[i].y,circles[i].r * 2, circles[i].r * 2);
-    }
-    return circles;
   };
 
-  /*   p.myCustomRedrawAccordingToNewPropsHandler = function (props) {
-      if (props.rotation) {
-        rotation = props.rotation * Math.PI / 180;
-      }
-    }; */
 
-  /*   p.draw = function () {
-      p.background(100);
-      p.normalMaterial();
-      p.noStroke();
-      p.push();
-      p.rotateY(rotation);
-      p.box(100);
-      p.pop();
-    }; */
 }
-
-// follows this tutorial:
-// https://www.youtube.com/watch?v=XATr_jdh-44
-
-// Uses P5.js for canvas creation and drawing
